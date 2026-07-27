@@ -1,8 +1,14 @@
 aid: flock-freight
 name: Flock Freight
-description: 'Flock Freight is a company surfaced as a portfolio company of gv, softbank-vision-fund and
-  added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Flock Freight is a freight technology company and licensed freight brokerage
+  that pioneered shared truckload (STL) shipping through its FlockDirect service. Its
+  AI-powered pooling technology algorithmically combines multiple partial shipments
+  from different businesses into a single multi-stop full truckload, giving shippers
+  truckload-level service, damage rates, and speed without paying for a full trailer,
+  while cutting empty miles and carbon emissions. The platform provides automated
+  spot rating via API, TMS integrations, and EDI connectivity (204/210/211/214/990/997)
+  for shippers and carriers. Backed by GV and the SoftBank Vision Fund, the company
+  is a certified B Corporation.'
 url: https://raw.githubusercontent.com/api-evangelist/flock-freight/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +17,30 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/656b56e5fc9ae6eba29a2fcf/657387f60e5d5f605e8375cb_Favicon-256.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise
+- Freight
+- Logistics
+- Shipping
+- Transportation
+- Supply Chain
+- Freight Brokerage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/flock-freight-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/flock-freight-domain-security.yml
+- type: Security
+  url: https://www.flockfreight.com/resources/security
 - type: Website
-  url: http://flockfreight.com
+  url: https://www.flockfreight.com
+- type: Integrations
+  url: https://www.flockfreight.com/freight-shipping/shipper-platform/integrations/overview
+- type: Support
+  url: https://www.flockfreight.com/customer-help
+- type: HelpCenter
+  url: https://www.flockfreight.com/carrier-help
+- type: Blog
+  url: https://www.flockfreight.com/blog
+- type: GitHubOrganization
+  url: https://github.com/flockfreight
+- type: TermsOfService
+  url: https://www.flockfreight.com/resources/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.flockfreight.com/resources/privacy-policy
+- type: SignUp
+  url: https://www.flockfreight.com/contact-us
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
