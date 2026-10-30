@@ -64,6 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Flock Freight is a company surfaced as a portfolio company of gv, softbank-vision-fund and added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment pipeline.
+Flock Freight is a freight technology company and licensed freight brokerage that pioneered shared truckload (STL) shipping through its FlockDirect service. Its AI-powered pooling technology algorithmically combines multiple partial shipments from different businesses into a single multi-stop full truckload, giving shippers truckload-level service, damage rates, and speed without paying for a full trailer, while cutting empty miles and carbon emissions. The platform provides automated spot rating via API, TMS integrations, and EDI connectivity (204/210/211/214/990/997) for shippers and carriers. Backed by GV and the SoftBank Vision Fund, the company is a certified B Corporation.
 
-Backed by: gv, softbank-vision-fund — http://flockfreight.com
+**Areas:** Company · Enterprise · Freight · Logistics · Shipping · Transportation · Supply Chain · Freight Brokerage
+
+## Flock Freight on APIs.io
+
+Everything profiled for Flock Freight is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/flock-freight/](https://apis.io/providers/flock-freight/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Flock Freight Domain Security](https://apis.io/security/flock-freight/flock-freight-domain-security/)
+- [Flock Freight Vulnerability Disclosure](https://apis.io/security/flock-freight/flock-freight-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.flockfreight.com)
+- [Sign up](https://www.flockfreight.com/contact-us)
+- [Support](https://www.flockfreight.com/customer-help)
+- [Blog](https://www.flockfreight.com/blog)
+- [Security](https://www.flockfreight.com/resources/security)
+- [Terms of service](https://www.flockfreight.com/resources/terms-of-use)
+- [Privacy policy](https://www.flockfreight.com/resources/privacy-policy)
+- [GitHub](https://github.com/flockfreight)
+
+## API Evangelist rating
+
+**Kin Score 15.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/flock-freight/](https://apis.io/providers/flock-freight/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Flock Freight: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/flock-freight/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
